@@ -8,10 +8,10 @@ import importlib.util
 from vortex.orchestrator.airflow import get_repo_toml_file
 from vortex.params.pipeline.airflow import AirflowDatabricksTask
 from vortex.params.pipeline_manifest.manifest import Manifest, ManifestBase
-from vortex.params.pipeline.pipeline import RunParameters
+from vortex.params.pipeline import RunParameters
 from vortex.params.pipeline_manifest.databricks import Jobs, Task
-from vortex.utils.db_utils import get_dbutils
-from vortex.utils.utils import get_class
+from vortex.utils.dbutils import get_dbutils
+from vortex.utils import get_class
 from itertools import chain
 from pathlib import Path
 from jinja2 import Environment, BaseLoader

@@ -1,9 +1,9 @@
 import json
 import os
 
-from vortex.io.apis import run_post_request
+from vortex.io.requests import run_post_request
 from vortex.orchestrator.parser import VortexManifestParser
-from vortex.utils.utils import get_class
+from vortex.utils import get_class
 
 
 class Databricks:

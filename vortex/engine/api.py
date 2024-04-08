@@ -5,7 +5,7 @@ from time import time
 from requests import Request, Session
 from vortex.engine import Engine
 from vortex.datamodels.engine import API
-from vortex.utils.utils import get_iter_progress
+from vortex.utils import get_iter_progress
 
 import logging
 
