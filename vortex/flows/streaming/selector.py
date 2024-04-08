@@ -1,5 +1,5 @@
 from vortex.datamodels.pipeline import RunParameters
-from vortex.flows.streaming.strategies import *
+from vortex.flows.flows.streaming.strategies import *
 
 strategies_mapping = {
     "eventhub_to_delta": eventhub_to_delta,
