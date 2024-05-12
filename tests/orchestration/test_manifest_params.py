@@ -138,6 +138,6 @@
 #         for task in task_group.tasks:
 #             assert task.pipeline_name.startswith(f"test_env_table_name_{group_name}")
 #             assert task.steps == "source_to_sink"
-#             assert task.checkpoint_path.startswith(f"dbfs:/tse_checkpoints/test_env_table_name_{group_name}")
+#             assert task.checkpoint_path.startswith(f"dbfs:/vortex_checkpoints/test_env_table_name_{group_name}")
 #             assert task.app_id.startswith(f"test_env_table_name_{group_name}_app_id")
 #             assert task.task_group == group_name
